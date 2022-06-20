@@ -1,0 +1,17 @@
+Check one week and Tomorrow box 
+  if has component go to test (5 kanjis from Tomorrow box and tops 20 from one week random selected)
+    if kanji incorrect move to Today Box
+Each lesson is a group of five Kanjis
+    user is able to go thru all five kanji and access all infos he wants
+      default info is stroke order, hiragana writining and meaning 
+When User is confident
+    Go to test:
+      Add this 5 kanji to the Today Box
+        will show the kanji (without stoke order) and user need to choose the right option
+          Options can be random (Hiragana or meaning) or User can select which he prefers
+    test ends when user get all five kanji rigtht five times 
+        then move this colection the the Tomorrow Box:
+          if tomorrow Box test succed 
+            move to the One Week Box five
+          else 
+            move the incorrect kanji to the Today Box
